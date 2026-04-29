@@ -12,10 +12,10 @@ export default function Hero() {
     return (
         <section
             id="home"
-            className="relative min-h-screen flex items-center justify-center overflow-hidden"
+            className="relative min-h-screen flex items-center justify-center overflow-hidden noise-overlay"
         >
             {/* Background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-700 to-cyan-600 animate-gradient" />
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-700 to-indigo-800 animate-gradient" />
             <div className="absolute inset-0 hero-pattern" />
 
             {/* Decorative elements */}
@@ -87,17 +87,17 @@ export default function Hero() {
 
                     {/* Stats */}
                     <div className="grid grid-cols-3 gap-4 max-w-lg mx-auto animate-fade-in-up delay-500">
-                        <div className="glass-card rounded-2xl p-4 text-center">
+                        <div className="hero-stats-card rounded-2xl p-4 text-center">
                             <BookOpen className="w-6 h-6 text-blue-300 mx-auto mb-2" />
                             <div className="text-2xl font-bold text-white">Play–7</div>
                             <div className="text-xs text-blue-200">Classes</div>
                         </div>
-                        <div className="glass-card rounded-2xl p-4 text-center">
+                        <div className="hero-stats-card rounded-2xl p-4 text-center">
                             <Users className="w-6 h-6 text-yellow-300 mx-auto mb-2" />
                             <div className="text-2xl font-bold text-white">Expert</div>
                             <div className="text-xs text-blue-200">Faculty</div>
                         </div>
-                        <div className="glass-card rounded-2xl p-4 text-center">
+                        <div className="hero-stats-card rounded-2xl p-4 text-center">
                             <Award className="w-6 h-6 text-cyan-300 mx-auto mb-2" />
                             <div className="text-2xl font-bold text-white">A/C</div>
                             <div className="text-xs text-blue-200">Classrooms</div>

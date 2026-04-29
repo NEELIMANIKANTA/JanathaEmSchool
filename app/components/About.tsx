@@ -28,29 +28,29 @@ export default function About() {
 
                         {/* Mission cards */}
                         <div className="space-y-4">
-                            <div className="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                            <div className="flex items-start gap-4 p-5 rounded-2xl bg-white interactive-card border border-slate-100 shadow-sm">
                                 <div className="p-3 rounded-xl bg-blue-100 text-blue-600 shrink-0">
                                     <Target className="w-5 h-5" />
                                 </div>
                                 <div>
-                                    <h3 className="font-semibold text-slate-900 mb-1">
+                                    <h3 className="font-bold text-slate-900 mb-1">
                                         Our Mission
                                     </h3>
-                                    <p className="text-sm text-slate-600">
+                                    <p className="text-sm text-slate-600 leading-relaxed">
                                         To create a nurturing environment that fosters academic
                                         excellence, creativity, and strong moral values in every child.
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex items-start gap-4 p-4 rounded-xl bg-white shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                            <div className="flex items-start gap-4 p-5 rounded-2xl bg-white interactive-card border border-slate-100 shadow-sm">
                                 <div className="p-3 rounded-xl bg-yellow-100 text-yellow-600 shrink-0">
                                     <Lightbulb className="w-5 h-5" />
                                 </div>
                                 <div>
-                                    <h3 className="font-semibold text-slate-900 mb-1">
+                                    <h3 className="font-bold text-slate-900 mb-1">
                                         Our Vision
                                     </h3>
-                                    <p className="text-sm text-slate-600">
+                                    <p className="text-sm text-slate-600 leading-relaxed">
                                         To be the leading school in the region, recognized for
                                         innovative teaching and holistic student development.
                                     </p>
